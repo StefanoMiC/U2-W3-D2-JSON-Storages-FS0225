@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Web Storages</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">LocalStorage</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" required>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label">Surname</label>
+                        <input type="text" class="form-control" id="surname" aria-describedby="surname" required>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="users-grid" class="row">
+            <!-- qui verranno generate le card di utente -->
+
+        </div>
+    </div>
+
+
+
+    <!-- <script src="./storages.js"></script> -->
+
+    <script src="./token.js"></script>
+    <script src="./storage-ex.js"></script>
+</body>
+
+</html>
